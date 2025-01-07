@@ -4,7 +4,7 @@ import os
 
 # Function to display the background image
 def display_background():
-    bg_path = 'assets/image.png'
+    bg_path = 'testcase/assets/image.png'
     if os.path.isfile(bg_path):
         st.markdown(f"""
         <style>
