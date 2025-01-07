@@ -22,7 +22,7 @@ genai.configure(api_key=API_KEY)
  
  
 def display_logo_and_title():
-    logo_path = 'assets/Tessolve_logo.png.png'
+    logo_path = 'testcase/assets/Tessolve_logo.png'
     if os.path.isfile(logo_path):
         st.markdown(f"""
         <style>
