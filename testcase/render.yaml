@@ -1,0 +1,5 @@
+services:
+  - type: web
+  name: git_hub_testcase
+  buildCommand: pip install -r requirements.txt.txt
+  startCommand: streamlit run main.py --server.port $PORT --server.headless true
