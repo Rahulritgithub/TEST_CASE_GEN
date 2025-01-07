@@ -52,7 +52,7 @@ def display_splash_screen():
     if os.path.isfile(logo_path):  # Check if the logo file exists
         st.markdown(f"""
         <div class="splash-screen">
-            <img class="splash-logo" src="data:image/png;base64,{base64_image(logo_path)}">
+            <img class="splash-logo" src="data:testcase/assets/image/png;base64,{base64_image(logo_path)}">
         </div>
         """, unsafe_allow_html=True)
     else:
