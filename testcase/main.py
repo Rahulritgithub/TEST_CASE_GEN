@@ -48,7 +48,7 @@ def base64_image(image_path):
 
 # Display the splash screen
 def display_splash_screen():
-    logo_path = 'assets/Tessolve_logo.png.png'
+    logo_path = 'testcase/assets/Tessolve_logo.png'
     if os.path.isfile(logo_path):  # Check if the logo file exists
         st.markdown(f"""
         <div class="splash-screen">
